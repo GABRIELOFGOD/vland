@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaPlus, FaRegUserCircle } from 'react-icons/fa'
 import { GoPeople } from 'react-icons/go'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
@@ -9,6 +9,11 @@ import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 export const Side = () => {
   const [userWallet, setUserWallet] = useState<string>('0x12hjyugu32748198cy8by834865764c');
   const [userReferral, setUserReferral] = useState<string>('0x12hjyugu');
+
+  useEffect(() => {
+    setUserWallet("0x12hjyugu32748198cy8by834865764c");
+    setUserReferral("0x12hjyugu");
+  }, []);
   
   return (
     <div className='flex flex-col gap-3 h-full'>

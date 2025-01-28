@@ -7,6 +7,8 @@ import React, { useState } from 'react'
 export const HomeHeader = () => {
   const [filter, setFilter] = useState<string>('');
   const [filterBy, setFilterBy] = useState<"name" | "lng-lat" | null>(null);
+
+  console.log(filterBy);
   
   return (
     <div className='flex justify-between text-white md:px-20 px-3'>

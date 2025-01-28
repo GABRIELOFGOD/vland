@@ -2,12 +2,12 @@
 
 import { aProperties } from '@/data/properties';
 import { IProperty } from '@/model/propertyTypes';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-const useProperty = (url: string) => {
+const useProperty = () => {
   const [properties, setProperties] = useState<IProperty[]>(aProperties);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<Error | null>(null);
+  // const [loading, setLoading] = useState<boolean>(true);
+  // const [error, setError] = useState<Error | null>(null);
 
   // useEffect(() => {
   //   const controller = new AbortController();
@@ -36,7 +36,7 @@ const useProperty = (url: string) => {
   //   };
   // }, [url]);
 
-  return { properties, loading, error, setProperties };
+  return { properties, setProperties };
 };
 
 export default useProperty;

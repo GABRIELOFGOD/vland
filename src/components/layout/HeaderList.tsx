@@ -2,7 +2,7 @@
 
 import { headerList } from '@/utils/headerConstants'
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { usePathname } from 'next/navigation'
 
 export const HeaderList = () => {

@@ -8,10 +8,8 @@ export const HomePropertyDisplay = () => {
   const url = "../data/properties.json";
   
   const {
-    error,
-    loading,
     properties
-  } = useProperty(url);
+  } = useProperty();
 
   useEffect(() => {
     console.log(properties);
