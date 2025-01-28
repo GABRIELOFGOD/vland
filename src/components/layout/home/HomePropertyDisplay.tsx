@@ -5,7 +5,6 @@ import useProperty from '@/hooks/useProperty'
 import React, { useEffect } from 'react'
 
 export const HomePropertyDisplay = () => {
-  const url = "../data/properties.json";
   
   const {
     properties
