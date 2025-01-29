@@ -10,6 +10,7 @@ const NftPage = () => {
         <p className='text-2xl font-semibold'>Recent Arts</p>
         <NftMap
           nfts={nfts.filter((nft) => nft.category.includes("recent"))}
+          category='recent'
         />
       </div>
 
@@ -18,6 +19,7 @@ const NftPage = () => {
         <NftMap
           nfts={nfts.filter((nft) => nft.category.includes("popular"))}
           color='purple'
+          category='popular'
         />
       </div>
 
@@ -25,6 +27,7 @@ const NftPage = () => {
         <p className='text-2xl font-semibold'>Special Arts</p>
         <NftMap
           nfts={nfts.filter((nft) => nft.category.includes("special"))}
+          category='special'
         />
       </div>
 
@@ -33,6 +36,7 @@ const NftPage = () => {
         <NftMap
           nfts={nfts.filter((nft) => nft.category.includes("rare"))}
           color='purple'
+          category='rare'
         />
       </div>
 
@@ -40,6 +44,7 @@ const NftPage = () => {
         <p className='text-2xl font-semibold'>Limited Edition</p>
         <NftMap
           nfts={nfts.filter((nft) => nft.category.includes("limited edition"))}
+          category='limited edition'
         />
       </div>
     </div>

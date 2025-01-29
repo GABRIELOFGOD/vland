@@ -31,16 +31,13 @@ body {
   font-weight: bold;
 }
 
-.color-box {
-  width: 100%;
+.nft-box {
+  width: 400px;
   height: fit-content;
   background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
   background-size: 400% 400%;
-  border-radius: 10px;
   animation: moveColors 4s infinite linear;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
+  padding: 3px;
 }
 
 @keyframes moveColors {

@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react";
+// import { HexGrid, Layout, Hexagon, Text, Pattern } from "react-hexgrid";
 import { HexGrid, Layout, Hexagon } from "react-hexgrid";
 
 const HexGridComponent = () => {
