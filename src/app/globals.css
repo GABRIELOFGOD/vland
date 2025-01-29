@@ -60,3 +60,15 @@ body {
 --tw-gradient-from: #ff7e5f;
 --tw-gradient-to: #feb47b;
 } */
+
+/* =============== HEX CSS ====================  */
+.hexagon {
+  fill: #4a90e2;
+  stroke: #fff;
+  stroke-width: 0.2;
+  transition: fill 0.2s ease-in-out;
+}
+
+.hexagon:hover {
+  fill: #ffcc00;
+}

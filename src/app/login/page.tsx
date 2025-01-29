@@ -37,7 +37,7 @@ const Login = () => {
         </form>
         <div className='flex justify-between'>
           <div>
-            <p className='text-white text-sm'>Don't have an account? <Link href="/register" className='text-primary font-bold'>Register</Link></p>
+            <p className='text-white text-sm'>Don&apos;t have an account? <Link href="/register" className='text-primary font-bold'>Register</Link></p>
           </div>
           <div>
             <p className='text-white text-sm'><Link href="/forgot-password" className='text-primary font-bold'>Forgot Password?</Link></p>
