@@ -4,7 +4,7 @@ import React from "react";
 import { HexGrid, Layout, Hexagon } from "react-hexgrid";
 
 const HexGridComponent = () => {
-  const handleClick = (hex: any) => {
+  const handleClick = (hex: {q: number, r: number}) => {
     alert(`Hex clicked at: ${hex.q}, ${hex.r}`);
   };
 
