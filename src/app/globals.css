@@ -7,6 +7,54 @@ body {
   background: #040533;
 }
 
+.color-box {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 400% 400%;
+  border-radius: 10px;
+  animation: moveColors 4s infinite linear;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.color-box-purple {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(45deg, #00ff00, purple, maroon, #ff0000);
+  background-size: 400% 400%;
+  border-radius: 10px;
+  animation: moveColors 4s infinite linear;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.color-box {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 400% 400%;
+  border-radius: 10px;
+  animation: moveColors 4s infinite linear;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@keyframes moveColors {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
 /* body {
   background: linear-gradient(to bottom right, var(--tw-gradient-from), var(--tw-gradient-to));
 --tw-gradient-from: #ff7e5f;
