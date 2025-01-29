@@ -5,7 +5,7 @@ import FormInput from '@/components/common/inputs/FormInput'
 import Link from 'next/link';
 import React, { useState } from 'react'
 
-const page = () => {
+const Register = () => {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -51,4 +51,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Register

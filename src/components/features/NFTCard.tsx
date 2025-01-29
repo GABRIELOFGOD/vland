@@ -2,11 +2,11 @@ import { NFT } from '@/model/nftTypes'
 import { formatMoney } from '@/services/moneyEditor'
 import Image from 'next/image'
 import React from 'react'
-import { FaMoneyBill1 } from 'react-icons/fa6'
-import BigButton from '../common/buttons/BigButton'
+// import { FaMoneyBill1 } from 'react-icons/fa6'
+// import BigButton from '../common/buttons/BigButton'
 
 const NFTCard = ({nft, color}: {nft: NFT, color?: string}) => {
-  const image = "/images/vland.jpg"
+  // const image = "/images/vland.jpg"
   
   return (
     <div className='text-white w-[150px]'>

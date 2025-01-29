@@ -5,7 +5,7 @@ import FormInput from '@/components/common/inputs/FormInput'
 import Link from 'next/link';
 import React, { useState } from 'react'
 
-const page = () => {
+const ForgotPassword = () => {
   const [email, setEmail] = useState<string>("");
   
   return (
@@ -36,4 +36,4 @@ const page = () => {
   )
 }
 
-export default page
+export default ForgotPassword
