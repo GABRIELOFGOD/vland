@@ -8,11 +8,23 @@ export const HomePage = () => {
   return (
     <div className='mt-2 flex flex-col gap-5'>
       <HomeHeader />
-      <div className='flex h-[85vh] w-full border-2 border-gray-200'>
-        <div className='flex-1 p-3'>
+      <div className='flex h-[85vh] w-full'>
+        <div className='w-[300px] p-3'>
           <Side />
         </div>
-        <div className='flex-[6] p-3 h-full'>
+        <div className='w-full p-3 h-full flex flex-col gap-3 text-white'>
+          <div className="flex justify-between font-semibold">
+            <p>Task info</p>
+            <p>Tags</p>
+            <p>Round status</p>
+            <div className="flex gap-5">
+              <p>Reward</p>
+              <p>Token</p>
+              <p>Menu</p>
+              <p>Run</p>
+            </div>
+          </div>
+          <hr />
           {/* <HomePropertyDisplay /> */}
           <HexGridComponent />
         </div>

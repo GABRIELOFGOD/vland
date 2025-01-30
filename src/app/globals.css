@@ -60,12 +60,17 @@ body {
 
 /* =============== HEX CSS ====================  */
 .hexagon {
-  fill: #4a90e2;
+  /* fill: #4a90e2; */
   stroke: #fff;
   stroke-width: 0.2;
   transition: fill 0.2s ease-in-out;
+  fill: #5dd9d1;
 }
 
 .hexagon:hover {
-  fill: #ffcc00;
+  fill: #4a90e2;
+}
+
+.selected {
+  fill: #040533 !important; /* Red when selected */
 }
