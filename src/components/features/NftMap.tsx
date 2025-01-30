@@ -17,7 +17,7 @@ const NftMap = ({nfts, color, category}: {nfts: NFT[], color?: string, category:
   }
 
   return (
-    <div className='flex flex-wrap gap-10 justify-normal'>
+    <div className='flex flex-wrap md:gap-10 gap-5 justify-evenly md:justify-normal'>
       {nfts.map((nft, i) => (
         <NFTCard
           key={i}

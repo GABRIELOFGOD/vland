@@ -8,11 +8,11 @@ import { IoCloseCircleOutline } from 'react-icons/io5'
 const NFTModel = ({ nft, color, onClose }: { nft: NFT, color: string, onClose: () => void }) => {
   return (
     <div 
-      className={`${color ? color : "bg-gray-200"} bg-opacity-30 w-full h-full fixed top-0 left-0 flex justify-center items-center z-40`}
+      className={`${color ? color : "bg-gray-200"} bg-opacity-30 w-full h-full fixed top-0 left-0 flex justify-center items-center z-40 px-3`}
       onClick={onClose}
     >
       <div className="nft-box rounded-md" onClick={(e) => e.stopPropagation()}>
-        <div className={`bg-white rounded-md relative p-10`}>
+        <div className={`bg-white rounded-md relative md:p-10 p-5`}>
           <button onClick={onClose} className="absolute top-2 right-2">
             <IoCloseCircleOutline size={25} color='#040533' />
           </button>
